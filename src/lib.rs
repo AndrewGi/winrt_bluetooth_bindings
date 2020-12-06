@@ -5,6 +5,9 @@ pub mod windows {
             os
         types
             windows::devices::bluetooth::*
+            windows::devices::bluetooth::advertisement::*
+            windows::devices::bluetooth::generic_attribute_profile::*
+            windows::devices::bluetooth::background::*
     }
     pub use windows::*;
 }
