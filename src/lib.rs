@@ -8,6 +8,7 @@ pub mod windows {
             windows::devices::bluetooth::advertisement::*
             windows::devices::bluetooth::generic_attribute_profile::*
             windows::devices::bluetooth::background::*
+            windows::storage::streams::DataReader
     }
     pub use windows::*;
 }
